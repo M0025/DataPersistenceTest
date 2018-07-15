@@ -1,0 +1,3 @@
+MovieName       boxOffice       percent         days        totalBoxOffice
+犬之岛          617.35	        9.08%	        2	        1309.09
+湮灭            135.34	        1.99%	        9	        5556.77
