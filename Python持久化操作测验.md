@@ -13,7 +13,9 @@ xlwt,openpyxl,xlrd
 |ZhangSan|101|
 |LiSi|102|
 |WangWu|103|
+
 目标结果：
+
 |name|stuNo|
 |--|--|
 |ZhangSan|101|
@@ -76,6 +78,7 @@ print(readData('./data.csv'))
 ## 第二题
 如下所示的Excel表格数据，请编写python代码筛选出Points大于5的数据，并按Points进行排序后输出如图2所示的Excel文件结果（20分）
 **原图：**
+
 |Rank| Team | Points|
 |--|--|--|
 |1|Russia|12|
@@ -86,6 +89,7 @@ print(readData('./data.csv'))
 |6|Brazil|15|
 
 **结果：**
+
 |Rank| Team | Points|
 |--|--|--|
 |6|Brazil|15|
@@ -137,6 +141,7 @@ reoutData(4)
 ## 第三题
 请用sql语句完成以下需求（30分）
 （1）使用sql创建出如下图所示的数据表，数据库名为movies，表名为movieRank，表中包含MovieName、boxOffice、percent、days、totalBoxOffice五个字段，字段的信息如下图所示：
+
 |名|类型|长度|小数点|不是null|主键|
 |--|--|--|---|----|---|
 |MovieName|varchar|255|0|not null|primaryKey|
@@ -175,6 +180,7 @@ select sum(totalBoxOffice) from movieRank
 ```
 结果：
 （2）：
+
 |moviename|boxOffice|percent|days|totalBoxOffice
 |--|--|--|
 |21克拉|1031.92|15.18|2|2827.06|
@@ -184,6 +190,7 @@ select sum(totalBoxOffice) from movieRank
 |红海行动|45.49|0.67%|65|364107.74
 
  (3):
+ 
 |MovieName|boxOffice|percent|days|totalBoxOffice|
 |---|---|---|--|--|
 |21克拉|1031.92|15.18%|2|2827.06
@@ -193,6 +200,7 @@ select sum(totalBoxOffice) from movieRank
 |红海行动|45.49|0.67%|65|364107.74
 
  (4):
+ 
  |sum(totalBoxOffice)|
  |--|
  |578069.7052001953|
@@ -216,6 +224,7 @@ conn.commit()
 ```
 
 （2）编写python代码，查询出所有的电影数据，并输出到一个Excel表movieRank.xlsx中,如下图所示
+
 |MovieName|boxOffice|percent|days|totalBoxOffice|
 |---|---|---|--|--|
 |21克拉|1031.92|15.18%|2|2827.06
