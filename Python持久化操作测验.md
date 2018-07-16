@@ -7,14 +7,15 @@ xlwt,openpyxl,xlrd
 ## 第一题
 现有如下图1所示的data.csv文件数据，请使用python读取该csv文件数据，并添加一条记录后输出如图2所示的output.csv文件（10分）
 原数据：
+
 |name|stuNo|
-|--
+|--|--|
 |ZhangSan|101|
 |LiSi|102|
 |WangWu|103|
 目标结果：
 |name|stuNo|
-|--
+|--|--|
 |ZhangSan|101|
 |LiSi|102|
 |WangWu|103|
