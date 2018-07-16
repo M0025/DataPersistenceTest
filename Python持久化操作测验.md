@@ -294,10 +294,17 @@ print(readData('./rooms.csv'))
 数据库中的结果：
 >\> db.room.find()
 { "_id" : ObjectId("5b481ef29ae44b0e3cd9247f"), "RoomID" : "101", "Floor" : "1", "Use" : "Retail", "Square Footage" : "1900", "Capacity" : "25", "Price" : "3000" }
+
 { "_id" : ObjectId("5b481ef29ae44b0e3cd92480"), "RoomID" : "102", "Floor" : "1", "Use" : "Retail", "Square Footage" : "1850", "Capacity" : "25", "Price" : "3000" }
+
 { "_id" : ObjectId("5b481ef29ae44b0e3cd92481"), "RoomID" : "103", "Floor" : "1", "Use" : "Restroom", "Square Footage" : "250", "Capacity" : "0", "Price" : "0" }
+
 { "_id" : ObjectId("5b481ef29ae44b0e3cd92482"), "RoomID" : "104", "Floor" : "1", "Use" : "Maintenance", "Square Footage" : "150", "Capacity" : "0", "Price" : "0" }
+
 { "_id" : ObjectId("5b481ef29ae44b0e3cd92483"), "RoomID" : "200", "Floor" : "2", "Use" : "Studio", "Square Footage" : "875", "Capacity" : "2", "Price" : "850" }
+
 { "_id" : ObjectId("5b481ef29ae44b0e3cd92484"), "RoomID" : "201", "Floor" : "2", "Use" : "Studio", "Square Footage" : "734", "Capacity" : "2", "Price" : "850" }
+
 { "_id" : ObjectId("5b481ef29ae44b0e3cd92485"), "RoomID" : "202", "Floor" : "2", "Use" : "Studio", "Square Footage" : "624", "Capacity" : "2", "Price" : "850" }
+
 { "_id" : ObjectId("5b481ef29ae44b0e3cd92486"), "RoomID" : "203", "Floor" : "2", "Use" : "Studio", "Square Footage" : "624", "Capacity" : "2", "Price" : "850" }
